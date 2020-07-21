@@ -1,0 +1,8 @@
+@import './utils/vars';
+@import './utils/globals';
+
+body {
+   background-color: $main-dark;
+   color: #eee;
+   font-family: sans-serif;
+}
