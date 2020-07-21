@@ -10,7 +10,45 @@
       <title>Login page</title>
    </head>
    <body>
-      <h1>Hello World</h1>
+      <!-- Header -->
+      <h1>Sign in</h1>
+      <!-- Select login type -->
+      <div>
+         <div>
+            <input
+               type="radio"
+               name="login-type"
+               id="personal"
+               value="personal"
+               checked
+            />
+            <label for="personal">Personal</label>
+         </div>
+         <div>
+            <input type="radio" name="login-type" id="team" value="team" />
+            <label for="team">Team</label>
+         </div>
+      </div>
+      <!-- Form -->
+      <form method="POST">
+         <div>
+            <label for="email">Email Address</label>
+            <input type="email" name="login" id="email" />
+         </div>
+         <div>
+            <label for="password">Password</label>
+            <a href="#">Forgot password?</a>
+            <input type="password" name="login" id="password" />
+         </div>
+         <button type="submit">Sign In</button>
+      </form>
+      <!-- Footer -->
+      <footer>
+         <p>Don't have an account yet?</p>
+         <button>Sign Up</button>
+      </footer>
+
+      <!-- SCRIPT -->
       <script src="../src/js/app.js"></script>
    </body>
 </html>
