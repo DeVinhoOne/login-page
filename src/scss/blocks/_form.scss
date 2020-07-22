@@ -1,0 +1,24 @@
+@import '../elements/input';
+@import '../elements/label';
+@import '../elements/forgot';
+@import '../elements/button';
+
+.form {
+   margin: 0 auto;
+   width: 260px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   &__field {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   // "span" element to separate "label" and "a" and keep them in the same line.
+   &__field span {
+      display: flex;
+      justify-content: space-between;
+   }
+}

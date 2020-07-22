@@ -40,16 +40,25 @@
       <form class="form" method="POST">
          <div class="form__field">
             <label class="form__label" for="email">Email Address</label>
-            <input class="form__input" type="email" name="login" id="email" />
+            <input
+               class="form__input"
+               type="email"
+               name="login"
+               id="email"
+               placeholder="Enter your email"
+            />
          </div>
          <div class="form__field">
-            <label class="form__label" for="password">Password</label>
-            <a class="form__forgot" href="#">Forgot password?</a>
+            <span>
+               <label class="form__label" for="password">Password</label>
+               <a class="form__forgot" href="#">Forgot password?</a>
+            </span>
             <input
                class="form__input"
                type="password"
                name="login"
                id="password"
+               placeholder="Enter your password"
             />
          </div>
          <button class="form__submit button" type="submit">Sign In</button>

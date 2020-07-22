@@ -1,0 +1,17 @@
+.form__input {
+   margin-top: 0.4rem;
+   margin-bottom: 1.4rem;
+   padding-left: 1rem;
+   width: 100%;
+   height: 42px;
+   border-radius: 3px;
+   border: 2px solid rgba($color: $dark-gray, $alpha: 0.2);
+   color: $light-gray;
+   background-color: transparent;
+   outline: none;
+
+   &::placeholder {
+      font-size: 1.3rem;
+      font-weight: 300;
+   }
+}
