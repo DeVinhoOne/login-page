@@ -11,41 +11,53 @@
    </head>
    <body>
       <!-- Header -->
-      <h1>Sign in</h1>
+      <h1 class="headline">Sign in</h1>
       <!-- Select login type -->
-      <div>
-         <div>
+      <div class="login-type">
+         <div class="login-type__field">
             <input
+               class="login-type__input"
                type="radio"
                name="login-type"
                id="personal"
                value="personal"
                checked
             />
-            <label for="personal">Personal</label>
+            <label class="login-type__label" for="personal">Personal</label>
          </div>
-         <div>
-            <input type="radio" name="login-type" id="team" value="team" />
-            <label for="team">Team</label>
+         <div class="login-type__field">
+            <input
+               class="login-type__input"
+               type="radio"
+               name="login-type"
+               id="team"
+               value="team"
+            />
+            <label class="login-type__label" for="team">Team</label>
          </div>
       </div>
       <!-- Form -->
-      <form method="POST">
-         <div>
-            <label for="email">Email Address</label>
-            <input type="email" name="login" id="email" />
+      <form class="form" method="POST">
+         <div class="form__field">
+            <label class="form__label" for="email">Email Address</label>
+            <input class="form__input" type="email" name="login" id="email" />
          </div>
-         <div>
-            <label for="password">Password</label>
-            <a href="#">Forgot password?</a>
-            <input type="password" name="login" id="password" />
+         <div class="form__field">
+            <label class="form__label" for="password">Password</label>
+            <a class="form__forgot" href="#">Forgot password?</a>
+            <input
+               class="form__input"
+               type="password"
+               name="login"
+               id="password"
+            />
          </div>
-         <button type="submit">Sign In</button>
+         <button class="form__submit button" type="submit">Sign In</button>
       </form>
       <!-- Footer -->
-      <footer>
-         <p>Don't have an account yet?</p>
-         <button>Sign Up</button>
+      <footer class="footer">
+         <p class="footer__text">Don't have an account yet?</p>
+         <button class="footer__button button">Sign Up</button>
       </footer>
 
       <!-- SCRIPT -->
