@@ -1,0 +1,23 @@
+.footer {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 60px;
+   background-color: rgba($color: $dark-gray, $alpha: 0.15);
+
+   &__text {
+      margin-right: 10px;
+      color: $med-gray;
+      font-size: 1.2rem;
+   }
+
+   &__button {
+      height: 25px;
+      width: 70px;
+      font-size: 1.1rem;
+   }
+}
