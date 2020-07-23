@@ -1,0 +1,9 @@
+@import '../elements/login-type__field';
+
+.login-type {
+   margin: 35px auto;
+   width: 250px;
+   height: 25px;
+   display: flex;
+   justify-content: space-between;
+}
