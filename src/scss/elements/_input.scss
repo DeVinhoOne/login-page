@@ -9,6 +9,11 @@
    color: $light-gray;
    background-color: transparent;
    outline: none;
+   transition: all 0.1s ease-in-out;
+
+   &:focus {
+      border: 3px solid rgba($color: $main-pink, $alpha: 0.15);
+   }
 
    // Largest screens
    @media (min-width: $desktop-width) {
