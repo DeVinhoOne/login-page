@@ -9,15 +9,33 @@
    height: 60px;
    background-color: rgba($color: $dark-gray, $alpha: 0.15);
 
+   // Largest screens
+   @media (min-width: $desktop-width) {
+      height: 90px;
+   }
+
    &__text {
       margin-right: 10px;
       color: $med-gray;
       font-size: 1.2rem;
+
+      // Largest screens
+      @media (min-width: $desktop-width) {
+         margin-right: 30px;
+         font-size: 2.2rem;
+      }
    }
 
    &__button {
       height: 25px;
       width: 70px;
       font-size: 1.1rem;
+
+      // Largest screens
+      @media (min-width: $desktop-width) {
+         width: 100px;
+         height: 45px;
+         font-size: 1.8rem;
+      }
    }
 }

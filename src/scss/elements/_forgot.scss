@@ -4,4 +4,9 @@
    text-decoration: none;
    align-self: flex-end;
    font-weight: 300;
+
+   // Largest screens
+   @media (min-width: $desktop-width) {
+      font-size: 1.6rem;
+   }
 }

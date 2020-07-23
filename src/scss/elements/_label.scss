@@ -2,4 +2,9 @@
    align-self: flex-start;
    color: $med-gray;
    font-size: 1.3rem;
+
+   // Largest screens
+   @media (min-width: $desktop-width) {
+      font-size: 1.6rem;
+   }
 }

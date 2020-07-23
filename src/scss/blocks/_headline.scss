@@ -3,4 +3,11 @@
    color: $light-gray;
    font-size: 3rem;
    text-align: center;
+   font-weight: 300;
+
+   // Largest screens
+   @media (min-width: $desktop-width) {
+      margin-top: 8rem;
+      font-size: 4rem;
+   }
 }

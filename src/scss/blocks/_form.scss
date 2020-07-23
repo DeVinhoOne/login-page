@@ -21,4 +21,9 @@
       display: flex;
       justify-content: space-between;
    }
+
+   // Largest screens
+   @media (min-width: $desktop-width) {
+      width: 500px;
+   }
 }
