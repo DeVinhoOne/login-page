@@ -19,7 +19,7 @@
          color: $main-pink;
       }
 
-      // Largest screens
+      // =====LARGEST SCREENS (1200px)=====
       @media (min-width: $desktop-width) {
          cursor: pointer;
       }
@@ -35,9 +35,9 @@
       font-size: 1.1rem;
       font-weight: bold;
       color: $med-gray;
-      transition: all 0.1s ease-in-out;
+      transition: color $animation-dur ease-in-out;
 
-      // Largest screens
+      // =====LARGEST SCREENS (1200px)=====
       @media (min-width: $desktop-width) {
          font-size: 1.8rem;
          cursor: pointer;
@@ -50,7 +50,7 @@
    border-top-left-radius: 4px;
    border-bottom-left-radius: 4px;
 
-   // Largest screens
+   // =====LARGEST SCREENS (1200px)=====
    @media (min-width: $desktop-width) {
       border-top-left-radius: 8px;
       border-bottom-left-radius: 8px;
@@ -62,7 +62,7 @@
    border-top-right-radius: 4px;
    border-bottom-right-radius: 4px;
 
-   // Largest screens
+   // =====LARGEST SCREENS (1200px)=====
    @media (min-width: $desktop-width) {
       border-top-right-radius: 8px;
       border-bottom-right-radius: 8px;
